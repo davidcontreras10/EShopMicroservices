@@ -7,7 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{E3404E4F-FF81-4473-87BD-1561B9CF1B52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogAPI", "Services\Catalog\CatalogAPI\CatalogAPI.csproj", "{A443CCCE-5DC2-4302-9E74-30EFD86169B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CatalogAPI", "Services\Catalog\CatalogAPI\CatalogAPI.csproj", "{A443CCCE-5DC2-4302-9E74-30EFD86169B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{1F7F1306-F4A4-4E2A-8FE7-210BC4EF5D3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{9CF38EB6-1B49-4691-99FF-5EB0D07BB4DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{A443CCCE-5DC2-4302-9E74-30EFD86169B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A443CCCE-5DC2-4302-9E74-30EFD86169B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A443CCCE-5DC2-4302-9E74-30EFD86169B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CF38EB6-1B49-4691-99FF-5EB0D07BB4DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CF38EB6-1B49-4691-99FF-5EB0D07BB4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CF38EB6-1B49-4691-99FF-5EB0D07BB4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CF38EB6-1B49-4691-99FF-5EB0D07BB4DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +34,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E3404E4F-FF81-4473-87BD-1561B9CF1B52} = {C0A43E92-748E-4CF7-9B5A-6D993A7F2DE4}
 		{A443CCCE-5DC2-4302-9E74-30EFD86169B7} = {E3404E4F-FF81-4473-87BD-1561B9CF1B52}
+		{9CF38EB6-1B49-4691-99FF-5EB0D07BB4DE} = {1F7F1306-F4A4-4E2A-8FE7-210BC4EF5D3C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C427C9B-5985-4093-9142-291DF99D23C4}
