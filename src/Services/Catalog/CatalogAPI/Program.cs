@@ -7,7 +7,6 @@ builder.Services.AddMediatR(config =>
 	config.RegisterServicesFromAssemblies(typeof(Program).Assembly);
 });
 
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
