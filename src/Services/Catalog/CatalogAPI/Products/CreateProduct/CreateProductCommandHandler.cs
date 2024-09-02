@@ -23,6 +23,7 @@ internal class CreateProductCommandHandler(IDocumentSession session)
 		session.Store(product);
 		await session.SaveChangesAsync(cancellationToken);
 
+		//Return the product id
 		return new CreateProductResult(product.Id);
 	}
 }
