@@ -26,7 +26,6 @@ public class UpdateProductCommandHandler(IDocumentSession session, ILogger<Updat
 
 		session.Update(product);
 		await session.SaveChangesAsync(cancellationToken);
-
 		return new UpdateProductResult(true);
 
 	}
