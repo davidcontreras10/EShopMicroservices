@@ -19,6 +19,7 @@ namespace CatalogAPI.Products.GetProductById
 				throw new ProductNotFoundException(request.Id);
 			}
 
+
 			return new GetProductByIdResult(product);
 		}
 	}
