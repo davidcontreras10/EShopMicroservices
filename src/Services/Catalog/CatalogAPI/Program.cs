@@ -13,6 +13,7 @@ builder.Services.AddMarten(options =>
 
 }).UseLightweightSessions();
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
